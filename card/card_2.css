@@ -1,0 +1,271 @@
+.container
+{
+    background-color: #F7F7F7;
+    width: 1000px;
+    height: 1200px;
+   /*font-family: 'Montserrat', sans-serif;*/
+   font-family: 'Poppins', sans-serif;
+
+}
+
+.header{
+    background-color: #FFFFFF;
+    width:1000px;
+    height: 80px;
+    margin-top: 0px;
+    display: flex;
+    
+}
+.header .task{
+    margin-left: 100px;
+}
+.header .list{
+    margin-left: 3px;
+    color: #00A5EC;
+}
+.sign2 {
+    display: grid;
+    grid-template-columns: 80% 1%;
+    grid-template-rows: 30% 1%;
+    margin-right: 100px;
+    padding-top: 20px;
+    margin-bottom: -70px;
+    
+}
+.sign2 .back{
+    margin-top:10px ;
+    margin-right:107px;
+    margin-left: -420px ;
+   
+}
+.round-button2{
+    width: 30px;
+    height: 30px;
+    background-color:#424242 ;
+    color: white;
+    border-radius: 50px;
+    border-color: #00A5EC;
+    border: 1px solid #EDEDED;
+    margin-top: 10px;
+    font-size: larger;
+    margin-right:80px;
+    margin-left: 270px;
+    
+    
+}
+
+.sign {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 50% 40%;
+    margin-top: 10px;
+   margin-right: 300px;
+   padding-top: 10px;
+   margin-bottom: 40px;
+   cursor: pointer;
+}
+.sign .new{
+    margin-top:10px ;
+    margin-right:7px;
+    margin-left:2px ;
+    cursor: pointer;
+}
+.modal2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background: rgba(77,77,77,0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    cursor: pointer;
+    opacity: 0;
+}
+.modal2:target{
+    visibility: visible;
+    cursor: pointer;
+    opacity: 1;
+}
+.add2{
+    position: relative;
+    background: #fff;
+    width:300px;
+    max-width: 70%;
+    padding: 1em 2em ;
+    border-radius: 10px;
+    height: 200px;
+    cursor: pointer;
+}
+.add2 .ant2{
+    display: grid;
+    grid-template-columns:80% 10%;
+    grid-template-rows: 50px 5px ;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.add2 .ant2 .ion2{
+    font-size: xx-large;
+    margin-top: 90px;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+.hr2{
+    margin-top: 0%;
+    cursor: pointer;
+}
+.learn2{
+    padding-left: 5px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+   border: 1px solid #EDEDED;
+    border-radius: 4px;
+   cursor: pointer;
+    opacity: 1;
+}
+.btn2{
+    width: 140px;
+    height:40px;
+    background: #00A5EC 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    margin-left: 150px;
+    margin-top: 40px;
+    cursor: pointer;
+    opacity: 1;
+}
+.btn2 .plus2{
+    display: grid;
+    grid-template-columns: 40% 90%;
+    grid-template-rows: 20% 1%;
+    align-items: center;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.btn2 .plus2 .plussym2{
+
+    font-size: x-large;
+    margin-left: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn2 .plus2 p{
+    font-size: 15px;
+    padding-right: 50px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.round-button{
+    width: 30px;
+    height: 30px;
+    background-color:#00A5EC ;
+    color: white;
+    border-radius: 50px;
+    border-color: #00A5EC;
+    border: 1px solid #EDEDED;
+    margin-top: 10px;
+    font-size: larger;
+    margin-right:20px;
+    margin-left: 530px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.container .box{
+    width: 800px;
+    height: 800px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 260px 260px 260px ;
+    grid-template-rows: 280px 280px 280px ;
+    grid-row-gap: 8px;
+    grid-column-gap:8px ;
+    padding-left: 200px;
+    padding-right: 80px;
+    cursor: pointer;
+   
+    
+
+    
+ }   
+    
+.container .box .box1{
+    width: 450px;
+    height: 100%;
+    margin-top: -20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 1;
+    
+    
+
+}
+.container .box .box1 .para{
+    
+    padding-left: 20px;
+    font-size: 17px;
+    color: #00A5EC;
+    cursor: pointer;
+}
+.container .box .box1 hr{
+    border: 1px solid #EDEDED;
+    cursor: pointer;
+}
+.check{
+    display: grid;
+    grid-template-columns: 45px 25px;
+    grid-template-rows: 25px 1px;
+    cursor: pointer;
+    
+}
+.container .box .box1 .checkbox1{
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 20px;
+    background-color: #C2C2C2;
+    border:#C2C2C2 ;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+.del{
+    width: 185px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+.color{
+    display: grid;
+    grid-template-columns: 45px 25px;
+    grid-template-rows: 25px 1px;
+    cursor: pointer;
+    
+}
+.container .box .box1 .bcheckbox1{
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 20px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 4px;
+cursor: pointer;
+opacity: 1;
+}
+.container .box .box1 .bcheckbox1 .icon1{
+    padding-right: 15%;
+    background-color: #C2C2C2;
+    cursor: pointer;
+}
+.shop{
+    width: 85px;
+    margin-left: 5px;
+    cursor: pointer;
+}
